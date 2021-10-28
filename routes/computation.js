@@ -1,7 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var value = Math.round(Math.random()*100);
-var x=Math.pow(value); 
+var value2 = Math.round(Math.random()*10);
+var x=Math.pow(value,value2); 
 var y=Math.sign(value) 
 var z=Math.tanh(value) 
 var w=Math.trunc(value) 
