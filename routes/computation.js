@@ -10,9 +10,9 @@ var w=Math.trunc(value)
 router.get('/', function(req, res, next) {
 
   res.send(`[Math.pow] applied to [${value}] is [${x}]<br>
-  [Math.sign] applied to [${value}] is [${x}]<br>
-  [Math.tanh] applied to [${value}] is [${x}]<br>
-  [Math.trunc] applied to [${value}] is [${x}]<br>`); 
+  [Math.sign] applied to [${value}] is [${y}]<br>
+  [Math.tanh] applied to [${value}] is [${z}]<br>
+  [Math.trunc] applied to [${value}] is [${w}]<br>`); 
 });
 
 module.exports = router;
